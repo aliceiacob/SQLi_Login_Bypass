@@ -1,0 +1,11 @@
+
+SELECT firstname FROM users where username=''' and password = 'admin'
+
+SELECT firstname FROM users where username='admin' and password = 'admin'
+
+SELECT firstname FROM users where username='adminstrator'--' and password = 'admin'
+
+SELECT firstname FROM users where username='admin'
+
+
+script.py <url> <sql-payload>
